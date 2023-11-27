@@ -1,0 +1,21 @@
+.add-task-container {
+  width: 97%;
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  margin: 10px 5px 10px 0;
+  min-height: 50px;
+  border-radius: 2px;
+  border: none;
+  padding: 10px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.add-task {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
