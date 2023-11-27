@@ -13,7 +13,7 @@ export const Task = ({ task }) => {
   return (
     <div className="task-card">
       <div className="content">
-        <label className="checkbox" for={task.id}>
+        <label className="checkbox" htmlFor={task.id}>
           <input
             className="checkbox_input"
             id={task.id}
