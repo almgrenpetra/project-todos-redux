@@ -9,7 +9,7 @@
   min-height: 50px;
   border-radius: 2px;
   border: none;
-  padding: 10px;
+  padding: 10px 15px;
   outline: none;
   flex-grow: 1;
 }

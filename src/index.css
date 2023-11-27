@@ -19,11 +19,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1 {
   margin-bottom: -15px;
-  font-family: "Work Sans", sans-serif;
   font-size: 80px;
   letter-spacing: 15px;
   text-align: center;
