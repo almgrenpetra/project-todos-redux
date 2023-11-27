@@ -19,14 +19,20 @@ export const TodoList = () => {
         {allTasks.map((task) => (
           <Task key={task.id} task={task} />
         ))}
-        <button
-          onClick={() => dispatch(todoList.actions.removeCompletedTasks())}
-        >
-          Remove completed
-        </button>
-        <button onClick={() => dispatch(todoList.actions.removeAllTasks())}>
-          Remove All
-        </button>
+        <div className="button-container">
+          <button
+            className="delete-button"
+            onClick={() => dispatch(todoList.actions.removeCompletedTasks())}
+          >
+            Remove completed
+          </button>
+          <button
+            className="delete-button"
+            onClick={() => dispatch(todoList.actions.removeAllTasks())}
+          >
+            Remove All
+          </button>
+        </div>
       </div>
     </>
   );
